@@ -23,7 +23,7 @@ import Judgement from "../src/images/card/major/20_judgement.jpeg";
 import TheWorld from "../src/images/card/major/21_the_world.jpeg";
 import BackgroundMajor from "../src/images/card/major/99_background.jpeg";
 
-const _ = {
+const TarotCardImage = {
     TheFool,
     TheMagician,
     TheHighPriestess,
@@ -31,4 +31,4 @@ const _ = {
     TheEmpress,
     TheHierophant,
 }
-export default _
+export default TarotCardImage;

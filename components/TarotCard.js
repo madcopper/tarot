@@ -3,7 +3,7 @@ import {Card} from "antd";
 import PropTypes from "prop-types";
 import AppLayout from "./AppLayout";
 import styled from "@emotion/styled";
-import {TheFool} from "../commons/cardImages";
+import TheFool from "../commons/cardImages";
 
 const {Meta} = Card;
 

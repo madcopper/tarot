@@ -2,7 +2,7 @@ import React from 'react';
 import {List} from 'antd';
 import {useSelector} from 'react-redux';
 
-const cards = useSelector((state) => state.tarot)
+// const {cards} = useSelector((state) => state.tarot)
 
 const TarotList = () => {
 

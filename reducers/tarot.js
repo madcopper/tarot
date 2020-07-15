@@ -5700,7 +5700,7 @@ export const initialState = {
 }
 
 
-const GetTarotCards = () => {
+export const GetTarotCards = () => {
     return {
         type : 'GET_TAROT_CARDS',
         data : initialState.cards,

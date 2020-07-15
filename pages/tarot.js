@@ -11,7 +11,7 @@ const Tarot =  () => {
                 <title>타로카드 | 타로하는 사자처럼</title>
             </Head>
             <AppLayout>
-             <TarotList header="타로카드 리스트"/>
+                <TarotList header="타로카드 리스트"/>
             </AppLayout>
         </>
     )

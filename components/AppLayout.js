@@ -36,9 +36,11 @@ const AppLayout = ({children}) => {
             <Layout>
                 <Sider trigger={null} collapsible collapsed={collapsed}>
                     <div className="logo" />
-                    <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
-                        <Menu.Item key="1" icon={<ReadOutlined />}>
-                            <Link href="/tarot"><a>타로</a></Link>
+                    <Menu theme="dark" mode="inline" defaultSelectedKeys={['0']}>
+                        <Menu.Item key="0" icon={<ReadOutlined />}>
+                            <Link href="/"><a>메인</a></Link>
+                        </Menu.Item>  <Menu.Item key="1" icon={<ReadOutlined />}>
+                            <Link href="/tarot"><a>타로카드</a></Link>
                         </Menu.Item>
                         <Menu.Item key="2" icon={<EyeOutlined />}>
                             <Link href="/fortune"><a>오늘의 운세처럼</a></Link>

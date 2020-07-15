@@ -1,25 +1,30 @@
 import React from 'react';
-import {List} from 'antd';
+import {List, Card} from 'antd';
 import {useSelector} from 'react-redux';
 
-// const {cards} = useSelector((state) => state.tarot)
+import TarotCard from "./TarotCard";
+const {Meta} = Card;
+
 
 const TarotList = () => {
+const {cards} = useSelector((state) => state.tarot)
 
     return (
+        <>
         <List
             grid={{
                 gutter: 16,
                 xs: 4,
                 md: 1,
             }}
-            // dataSource={cards}
+            dataSource={cards}
             renderItem={item => (
                 <List.Item>
-                   {/*<TarotCard card={item}/>*/}
+                   <TarotCard card={item}/>
                 </List.Item>
             )}
         />
+        </>
     )
 }
 

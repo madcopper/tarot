@@ -1,5 +1,6 @@
 
 export const initialState = {
+    isUsed : false,
     cards : [
         {
             id: 0,
@@ -256,7 +257,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 1,
             type : "major",
             nameKr : "마법사",
@@ -521,7 +523,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 2,
             type : "major",
             nameKr : "여사제",
@@ -808,7 +811,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 3,
             type : "major",
             nameKr : "여황제",
@@ -1067,7 +1071,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 4,
             type : "major",
             nameKr : "황제",
@@ -1299,7 +1304,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 5,
             type : "major",
             nameKr : "교황",
@@ -1547,7 +1553,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 6,
             type : "major",
             nameKr : "연인",
@@ -1803,7 +1810,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 7,
             type : "major",
             nameKr : "전차",
@@ -2107,7 +2115,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 8,
             type : "major",
             nameKr : "힘",
@@ -2317,7 +2326,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 9,
             type : "major",
             nameKr : "은둔자",
@@ -2573,7 +2583,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 10,
             type : "major",
             nameKr : "운명의 수레바퀴",
@@ -2908,7 +2919,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 11,
             type : "major",
             nameKr : "정의",
@@ -3144,7 +3156,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 12,
             type : "major",
             nameKr : "매달린 사람",
@@ -3368,7 +3381,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 13,
             type : "major",
             nameKr : "죽음",
@@ -3633,7 +3647,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 14,
             type : "major",
             nameKr : "절제",
@@ -3899,7 +3914,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 15,
             type : "major",
             nameKr : "악마",
@@ -4184,7 +4200,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 16,
             type : "major",
             nameKr : "타워",
@@ -4445,7 +4462,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 17,
             type : "major",
             nameKr : "별",
@@ -4723,7 +4741,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 18,
             type : "major",
             nameKr : "달",
@@ -4981,7 +5000,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 19,
             type : "major",
             nameKr : "태양",
@@ -5223,7 +5243,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 20,
             type : "major",
             nameKr : "심판",
@@ -5455,7 +5476,8 @@ export const initialState = {
                     },
                 },
             },
-        },{
+        },
+        {
             id: 21,
             type : "major",
             nameKr : "세계",
@@ -5696,15 +5718,7 @@ export const initialState = {
                 },
             },
         },
-    ]
-}
-
-
-export const GetTarotCards = () => {
-    return {
-        type : 'GET_TAROT_CARDS',
-        data : initialState.cards,
-    };
+    ],
 }
 
 //(이전 상태, 액션) => 다음 상태로 만듬

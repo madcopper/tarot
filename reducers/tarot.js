@@ -1,3 +1,5 @@
+import React from 'react';
+import TarotCardImage from '../commons/cardImages';
 
 export const initialState = {
     isUsed : false,
@@ -8,8 +10,8 @@ export const initialState = {
             nameKr : "바보/광대",
             nameEn : "The Fool",
             images : {
-                frontSrc : "../images/card/major/0_the_fool.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheFool,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "화려한 옷을 입은 한 남성이 절벽 위에 서 있습니다.\n" +
@@ -264,8 +266,8 @@ export const initialState = {
             nameKr : "마법사",
             nameEn : "The Magician",
             images : {
-                frontSrc : "../images/card/major/1_the_magician.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheMagician,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
 
             description : {
@@ -530,8 +532,8 @@ export const initialState = {
             nameKr : "여사제",
             nameEn : "The High Priestess",
             images : {
-                frontSrc : "../images/card/major/2_the_high_priestess.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheHighPriestess,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "한 여성이 B라고 적힌 검은 기둥과 J라고 적힌 하얀 기둥 사이에 앉아 있습니다.\n" +
@@ -818,8 +820,8 @@ export const initialState = {
             nameKr : "여황제",
             nameEn : "The Empress",
             images : {
-                frontSrc : "../images/card/major/3_the_empress.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheEmpress,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "카드에서 보시면 한 여성이 잘 익은 벼 주위에 앉아 있습니다.\n" +
@@ -1078,8 +1080,8 @@ export const initialState = {
             nameKr : "황제",
             nameEn : "The Emperor",
             images : {
-                frontSrc : "../images/card/major/4_the_emperor.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheEmperor,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "\n" +
@@ -1311,8 +1313,8 @@ export const initialState = {
             nameKr : "교황",
             nameEn : "The Hierophant",
             images : {
-                frontSrc : "../images/card/major/5_the_hierophant.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheHierophant,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "교황 카드의 이미지를 보시면 두 명의 신자와 교황이 보입니다.\n" +
@@ -1560,8 +1562,8 @@ export const initialState = {
             nameKr : "연인",
             nameEn : "The Lovers",
             images : {
-                frontSrc : "../images/card/major/6_the_lovers.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheLovers,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "6번 카드인 연인 카드의 모습입니다.\n" +
@@ -1817,8 +1819,8 @@ export const initialState = {
             nameKr : "전차",
             nameEn : "The Chariot",
             images : {
-                frontSrc : "../images/card/major/7_the_chariot.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheChariot,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "카드를 보면 한 남성이 전차 위에 올라 있네요.\n" +
@@ -2122,8 +2124,8 @@ export const initialState = {
             nameKr : "힘",
             nameEn : "Strength",
             images : {
-                frontSrc : "../images/card/major/8_strength.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.Strength,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "카드 이미지를 보시면 여성과 사자가 나옵니다.\n" +
@@ -2333,8 +2335,8 @@ export const initialState = {
             nameKr : "은둔자",
             nameEn : "The Hermit",
             images : {
-                frontSrc : "../images/card/major/9_the_hermit.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheHermit,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "카드의 이미지에는 한 남자가 어둠 속에서 홀로 서있네요.\n" +
@@ -2590,8 +2592,8 @@ export const initialState = {
             nameKr : "운명의 수레바퀴",
             nameEn : "Wheel Of Fortune",
             images : {
-                frontSrc : "../images/card/major/10_wheel_of_fortune.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.WheelOfFortune,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "카드에는 가운데에 로타(ROTA)라고 적힌 수레바퀴가 있네요.\n" +
@@ -2926,8 +2928,8 @@ export const initialState = {
             nameKr : "정의",
             nameEn : "Justice",
             images : {
-                frontSrc : "../images/card/major/11_justice.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.Justice,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "엄숙한 표정을 가진 여성이 두 기둥 사이에 앉아 있습니다.\n" +
@@ -3163,8 +3165,8 @@ export const initialState = {
             nameKr : "매달린 사람",
             nameEn : "The Hanged Man",
             images : {
-                frontSrc : "../images/card/major/12_the_hanged_man.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheHangedMan,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "한 남자가 나무에 거꾸로 매달려 있습니다.\n" +
@@ -3388,8 +3390,8 @@ export const initialState = {
             nameKr : "죽음",
             nameEn : "Death",
             images : {
-                frontSrc : "../images/card/major/13_death.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.Death,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "카드 이미지를 보면 해골의 형상을 한 것이 하얀 말을 타고 지나가고 있습니다.\n" +
@@ -3654,8 +3656,8 @@ export const initialState = {
             nameKr : "절제",
             nameEn : "Temperance",
             images : {
-                frontSrc : "../images/card/major/14_temperance.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.Temperance,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "카드 이미지를 보면 천사가 호수에 서 있습니다.\n" +
@@ -3919,10 +3921,10 @@ export const initialState = {
             id: 15,
             type : "major",
             nameKr : "악마",
-            nameEn : "Devil",
+            nameEn : "The Devil",
             images : {
-                frontSrc : "../images/card/major/15_the_devil.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheDevil,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "카드를 보면 가운데에는 악마가 있고\n" +
@@ -4207,8 +4209,8 @@ export const initialState = {
             nameKr : "타워",
             nameEn : "The Tower",
             images : {
-                frontSrc : "../images/card/major/16_the_tower.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheTower,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "카드의 이미지를 보면 탑이 번개를 맞아 불타고 있습니다.\n" +
@@ -4469,8 +4471,8 @@ export const initialState = {
             nameKr : "별",
             nameEn : "The Star",
             images : {
-                frontSrc : "../images/card/major/17_the_star.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheStar,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "나체의 여성이 호숫가에 앉아 있습니다.\n" +
@@ -4748,8 +4750,8 @@ export const initialState = {
             nameKr : "달",
             nameEn : "The Moon",
             images : {
-                frontSrc : "../images/card/major/18_the_moon.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheMoon,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "카드 이미지를 보면 개와 늑대가 달을 보고 으르렁대고 있습니다.\n" +
@@ -5007,8 +5009,8 @@ export const initialState = {
             nameKr : "태양",
             nameEn : "The Sun",
             images : {
-                frontSrc : "../images/card/major/19_the_sun.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheSun,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "카드 이미지를 보면 아기가 백마 위에 올라 타 있습니다.\n" +
@@ -5250,8 +5252,8 @@ export const initialState = {
             nameKr : "심판",
             nameEn : "Judgement",
             images : {
-                frontSrc : "../images/card/major/20_judgement.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.Judgement,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "빨간 날개를 가진 천사가 나팔을 불고 있습니다.\n" +
@@ -5483,8 +5485,8 @@ export const initialState = {
             nameKr : "세계",
             nameEn : "The World",
             images : {
-                frontSrc : "../images/card/major/21_the_world.jpeg",
-                backSrc : "../images/card/major/99_background.jpeg",
+                frontSrc : TarotCardImage.TheWorld,
+                backSrc : TarotCardImage.BackgroundMajor,
             },
             description : {
                 text : "카드 이미지를 보면 여성이 양손에 봉을 들고 있습니다. \n" +

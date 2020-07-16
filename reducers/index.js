@@ -5,6 +5,7 @@ import tarot from './tarot';
 import fortune from './fortune';
 import before from './before';
 import recommendation from './recommendation';
+import user from './user';
 
 //(이전 상태, 액션) => 다음 상태로 만듬
 const rootReducer = combineReducers({
@@ -20,6 +21,7 @@ const rootReducer = combineReducers({
     fortune,
     before,
     recommendation,
+    user,
 });
 
 export default rootReducer;

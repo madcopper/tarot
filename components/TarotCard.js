@@ -12,9 +12,10 @@ const CardWrapper = styled(Card)`
 `;
 
 const TarotCard = ({card}) => {
+    console.log(card)
     return (
         <CardWrapper hoverable
-              cover={<img alt={card.nameKr} src={TarotCardImages.TheFool}
+              cover={<img alt={card.nameKr} src={card.images.frontSrc}
               />}>
             <Meta title={card.nameKr} description={card.nameEn}  />
         </CardWrapper>

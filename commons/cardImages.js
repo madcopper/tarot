@@ -1,11 +1,13 @@
 import React from 'react';
+// const TheFool = React.lazy(() => import('../src/images/card/major/0_the_fool.jpeg'));
+// const {TheMagician} = React.lazy(() => import('../src/images/card/major/1_the_magician.jpeg'));
 import {default as TheFool} from "../src/images/card/major/0_the_fool.jpeg";
 import {default as TheMagician} from "../src/images/card/major/1_the_magician.jpeg";
 import {default as TheHighPriestess} from "../src/images/card/major/2_the_high_priestess.jpeg";
 import {default as TheEmpress} from "../src/images/card/major/3_the_empress.jpeg";
 import {default as TheEmperor} from "../src/images/card/major/4_the_emperor.jpeg";
 import {default as TheHierophant} from "../src/images/card/major/5_the_hierophant.jpeg";
-import {default as TheLove} from "../src/images/card/major/6_the_lovers.jpeg";
+import {default as TheLovers} from "../src/images/card/major/6_the_lovers.jpeg";
 import {default as TheChariot} from "../src/images/card/major/7_the_chariot.jpeg";
 import {default as Strength} from "../src/images/card/major/8_strength.jpeg";
 import {default as TheHermit} from "../src/images/card/major/9_the_hermit.jpeg";
@@ -30,5 +32,23 @@ const TarotCardImage = {
     TheEmperor,
     TheEmpress,
     TheHierophant,
+    TheLovers,
+    TheChariot,
+    Strength,
+    TheHermit,
+    WheelOfFortune,
+    Justice,
+    TheHangedMan,
+    Death,
+    Temperance,
+    TheDevil,
+    TheTower,
+    TheStar,
+    TheMoon,
+    TheSun,
+    Judgement,
+    TheWorld,
+    BackgroundMajor,
 }
 export default TarotCardImage;
+

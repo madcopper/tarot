@@ -3,8 +3,6 @@ import {List, Card} from 'antd';
 import {useSelector} from 'react-redux';
 
 import TarotCard from "./TarotCard";
-const {Meta} = Card;
-
 
 const TarotList = () => {
 const {cards} = useSelector((state) => state.tarot)

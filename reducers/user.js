@@ -1,5 +1,6 @@
 import produce from '../util/produce';
-
+import shortId from 'shortid';
+import faker from 'faker';
 export const initialState = {
     followLoading: false, // 팔로우 시도중
     followDone: false,
@@ -54,10 +55,10 @@ export const REMOVE_POST_OF_ME = 'REMOVE_POST_OF_ME';
 const dummyUser = (data) =>({
     ...data,
     nickname: 'MadCopper',
-    id: 1,
-    Posts: [{ id: 1 }],
-    Followings: [{ nickname: '승환이' }, { nickname: 'babo' }, { nickname: 'zero boxer' }],
-    Followers: [{ nickname: '승환이' }, { nickname: 'superman' }, { nickname: 'batman' }],
+    id: shortId.generate(),
+    Posts: [{ id: shortId.generate() }],
+    Followings: [{ nickname: faker.name.findName() }, { nickname: faker.name.findName() }, { nickname: faker.name.findName() }],
+    Followers: [{ nickname: faker.name.findName() }, { nickname: faker.name.findName() }, { nickname: faker.name.findName()}],
 
 });
 

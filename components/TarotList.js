@@ -1,5 +1,5 @@
 import React from 'react';
-import {List, Card} from 'antd';
+import {List} from 'antd';
 import {useSelector} from 'react-redux';
 
 import TarotCard from "./TarotCard";
